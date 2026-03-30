@@ -9,29 +9,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar (copiar de index.html) -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Mi Blog</a>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+    <img src="assets/images/patito.png" alt="Logo" width="30" height="30" class="me-2">
+    Mi Blog
+</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">Acerca</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Contenido -->
     <main class="py-5">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
                 <!-- Sidebar: Avatar (COMPLETAR) -->
                 <aside class="col-md-3 mb-4">
-                    <img src="assets/images/avatar.jpg" class="img-fluid rounded-circle mb-3" alt="Avatar" style="max-width: 200px;">
-                    <h3>Tu Nombre</h3>
-                    <p class="text-muted">Desarrollador web &amp; escritor</p>
+                    <img src="assets/images/avatar.png" class="img-fluid rounded-circle mb-3" alt="Avatar" style="max-width: 200px;">
+                    <h3>Beltrán, Cristian Fernando</h3>
+                    <p class="text-muted">Delirante &amp; políticamente incorrecto</p>
                 </aside>
 
                 <!-- Contenido principal (COMPLETAR) -->
                 <article class="col-md-9">
                     <h1>Acerca de mí</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <!-- TODO: agregar más párrafos, habilidades, etc. -->
+                    <p>Me da fiaca estudiar teoría y me dan miedo las escaleras de caracol</p>
+                    <p>Me gustan las milanesas, los michis, el fernet y las góticas</p>
+                    <p>Tengo conocimientos en Psicología, Administración, Contabilidad, Informática y Música</p>
+                    <p>Tengo sueño</p>
                 </article>
             </div>
         </div>
