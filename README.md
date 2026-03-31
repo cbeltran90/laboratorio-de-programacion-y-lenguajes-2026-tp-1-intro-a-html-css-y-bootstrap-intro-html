@@ -2,7 +2,19 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23334162)
 # Mi Blog Personal - TP Semana 1
 
+Este trabajo práctico trata de la realización y complementación con HTML5, CSS3 y Bootstrap, acerca de un blog personal.
+La página cuenta con una interfaz responsiva, así como también un navbar (página de inicio, contacto y acerca de). También un botón colapsable.
+Los formularios de contacto también cuentan con validaciones y restricciones, para evitar cualquier error al momento de completarlos.
+
 Página web de blog personal usando **HTML5**, **CSS3** y **Bootstrap 5**.
+
+## ⚙️ Funcionalidades
+
+- Navbar responsive con menú colapsable
+- Listado de artículos con cards de Bootstrap
+- Página "Acerca de mí" con información personal
+- Formulario de contacto con validación HTML5
+- Diseño adaptable a dispositivos móviles (responsive)
 
 ## 📋 Requisitos
 
@@ -131,6 +143,6 @@ Tu `assets/styles.css` se importa DESPUÉS de Bootstrap, así que tus estilos lo
 
 ---
 
-**Autor**: [Tu nombre]  
-**Fecha**: 2026-03-13  
-**Estado**: En desarrollo
+**Autor**: [Beltrán, Cristian Fernando]  
+**Fecha**: 2026-03-30 
+**Estado**: Finalizado
